@@ -1,9 +1,40 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:132.0) Gecko/20100101 Firefox/132.0" version="24.8.6">
   <diagram name="Page-1" id="qGDajRRk05GVEo0lbaPc">
-    <mxGraphModel>
+    <mxGraphModel dx="1303" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="n8eencKYujPpVASK_ZUD-14" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="330" y="190.5" width="69" height="72" as="geometry" />
+        </mxCell>
+        <mxCell id="n8eencKYujPpVASK_ZUD-15" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.step_functions;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="100" y="180" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="n8eencKYujPpVASK_ZUD-16" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloud_2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n8eencKYujPpVASK_ZUD-19" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="670" y="150" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n8eencKYujPpVASK_ZUD-20" value="Amazon DynamoDB" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.dynamodb;" vertex="1" parent="1">
+          <mxGeometry x="670" y="240" width="60" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n8eencKYujPpVASK_ZUD-21" value="&lt;div&gt;Invoke&lt;/div&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;curved=0;rounded=0;" edge="1" parent="1">
+          <mxGeometry y="10" width="60" relative="1" as="geometry">
+            <mxPoint x="190" y="240" as="sourcePoint" />
+            <mxPoint x="320" y="240" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n8eencKYujPpVASK_ZUD-22" value="StepFunction" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="108.25" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n8eencKYujPpVASK_ZUD-23" value="Lambda" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="339" y="275" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n8eencKYujPpVASK_ZUD-24" value="Amazon S3" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.s3;" vertex="1" parent="1">
+          <mxGeometry x="460" y="190.5" width="60" height="90" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
